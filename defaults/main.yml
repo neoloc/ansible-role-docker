@@ -1,5 +1,8 @@
 ---
-# Edition can be one of: 'ce' (Community Edition) or 'ee' (Enterprise Edition).
+# install/configure docker
+docker_configure: false
+
+#Edition can be one of: 'ce' (Community Edition) or 'ee' (Enterprise Edition).
 docker_edition: 'ce'
 docker_packages:
   - "docker-{{ docker_edition }}"

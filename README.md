@@ -102,7 +102,7 @@ Many users of this role wish to also use Ansible to then _build_ Docker images a
 
   roles:
     - geerlingguy.pip
-    - geerlingguy.docker
+    - neoloc.docker
 ```
 
 ## Dependencies
@@ -114,7 +114,7 @@ None.
 ```yaml
 - hosts: all
   roles:
-    - geerlingguy.docker
+    - neoloc.docker
 ```
 
 ## License
